@@ -1,5 +1,6 @@
 
 var request = require('request');
+var cheerio = require('cheerio');
 
 /*
 request('http://www.google.com', function (error, response, body) {
@@ -9,6 +10,7 @@ request('http://www.google.com', function (error, response, body) {
 });
 */
 
+/*
 var pm25 = function() {
   request({
     url: "http://rate.bot.com.tw/xrt?Lang=zh-TW",
@@ -24,3 +26,24 @@ var pm25 = function() {
 };
 
 pm25();
+*/
+
+request("http://rate.bot.com.tw/xrt?Lang=zh-TW", function (error, response, html) {
+  if (!error && response.statusCode == 200) {
+    var $ = cheerio.load(html);
+    $('td.rate-content-cash').each(function (i, element) {
+    	var a = $(this);
+    	console.log(a);
+    });
+    //console.log(currency[0].attribs.data-table);
+    //console.log(currency[0].children[0].data);
+
+    //console.log(currency);
+    /*
+    $('span.comhead').each(function(i, element){
+      var a = $(this).prev();
+      console.log(a.text());
+    });
+    */
+  }
+});
