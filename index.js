@@ -31,19 +31,14 @@ pm25();
 request("http://rate.bot.com.tw/xrt?Lang=zh-TW", function (error, response, html) {
   if (!error && response.statusCode == 200) {
     var $ = cheerio.load(html);
+    
     $('td.rate-content-cash').each(function (i, element) {
-    	var a = $(this);
-    	console.log(a);
+    	//var a = $(this).text();
+    	console.log($(this).text());
     });
-    //console.log(currency[0].attribs.data-table);
-    //console.log(currency[0].children[0].data);
 
-    //console.log(currency);
-    /*
-    $('span.comhead').each(function(i, element){
-      var a = $(this).prev();
-      console.log(a.text());
+    $('div.visible-phone').each(function (i, element) {
+    	console.log($(this).text());
     });
-    */
   }
 });
