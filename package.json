@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/welentsai/myWebCrawler/issues"
   },
-  "homepage": "https://github.com/welentsai/myWebCrawler#readme"
+  "homepage": "https://github.com/welentsai/myWebCrawler#readme",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
 }
