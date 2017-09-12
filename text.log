@@ -1,0 +1,717 @@
+<!DOCTYPE html PUBLIC "-//W3C//Dtd XHTML 1.1//EN" "http://www.w3.org/tr/xhtml11/Dtd/xhtml11.dtd"><html xmlns="http://www.w3.org/1999/xhtml"><head id="Head1"><base href="https://taqm.epa.gov.tw/taqm/tw/"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Pragma" content="no-cache"><meta http-equiv="Cache-Control" content="no-cache"><meta http-equiv="Cache-Control" content="private"><meta http-equiv="Expires" content="0"><title>
+	&#x884C;&#x653F;&#x9662;&#x74B0;&#x5883;&#x4FDD;&#x8B77;&#x7F72;&#xFF0D;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x76E3;&#x6E2C;&#x7DB2;
+</title><link rel="govtwsimpledc.xsd" href="http://www.gov.tw/schema/dc/" title="Dublin Core"><link type="text/css" href="/taqm/tw/style/all.min.css?v=20170719a" rel="stylesheet">
+<style type="text/css">
+.bulletin {display:none; font-size:16pt;font-family:微軟正黑體,Arial,Courier New,新細明體;}
+
+#tabsJ a span {height:24px;display:inline-block;font-family:微軟正黑體,Arial,Courier New,新細明體;font-size:10pt;}
+#tabsJ_SB a span.BIG {font-size:12pt;font-weight:bold;padding-left:2em;padding-right:2em;font-family:微軟正黑體,Arial,Courier New,新細明體;}
+
+    #tabsJ_SB {
+      float:left;
+      width:100%;
+      font-size:10pt;
+      line-height:normal;
+      /*border-bottom:1px solid #24618E;*/
+      }
+    #tabsJ_SB ul {
+        margin:0;
+        padding:5px 4px 0 4px;
+        list-style:none;
+      }
+    #tabsJ_SB li {
+      display:inline;
+      margin:0;
+      padding:0;
+      }
+    #tabsJ_SB a {
+      float:left;
+      background:url("../resource/tableftF.gif") no-repeat left top;
+      margin:0;
+      padding:0px 0px 0px 2px;
+      text-decoration:none;
+      border-bottom:1px solid #24618E;
+      }
+    #tabsJ_SB a span {
+      background:url("../resource/tabrightF.gif") no-repeat right top;
+      padding:8px 4px 4px 4px;
+      color:#24618E;
+      white-space:nowrap;float:left;
+      
+      display:block; /*FF*/
+      *display:inline; /*IE*/
+      }
+    /* Commented Backslash Hack hides rule from IE5-Mac \*/
+    #tabsJ_SB a span {float:none;}
+    /* End IE5-Mac hack */
+    #tabsJ_SB a:hover span {
+      color:#FFF;
+      }
+    #tabsJ_SB a:hover {
+      background-position:0% -42px;
+      }
+    #tabsJ_SB a:hover span {
+      background-position:100% -42px;
+      }
+
+        #tabsJ_SB #current a {
+                background-position:0% -42px;
+        }
+        #tabsJ_SB #current a span {
+                background-position:100% -42px;
+                color:#000;
+        }
+
+li#mz a {color:red;background-image:url(../resource/tableftJy.gif);} 
+li#mz a:hover {background-position:0 0;color:Red;}   
+li#mz a span {letter-spacing:-1px;font-size:16pt;font-weight:bold;color:red;background-image:url(../resource/tabrightJy.gif);}
+li#mz a:hover span {color:red;background-position:0 0;}
+li#mz a small {font-size:8pt;color:#000000;font-weight:normal;}
+li#mz a:hover small {color:#000000;}
+
+</style>
+<script type="text/javascript" src="/taqm/script/jquery.min.js"></script>
+<script type="text/javascript" src="/taqm/script/jquery.myslide2.min.js"></script>
+<script type="text/javascript">
+function DownloadReport(url) {
+	var win = window.open("DownloadReport.aspx?file="+escape(url),"download" /*,"modal=yes,menubar=no,scrollbars=no,status=no,titlebar=no,toolbar=no,height=200px,width=300px"*/);
+	if ( win ) {
+		win.focus();
+	} // if
+}
+</script>
+<meta name="DC.Title" content="&#x884C;&#x653F;&#x9662;&#x74B0;&#x5883;&#x4FDD;&#x8B77;&#x7F72;-&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x8CC7;&#x8A0A;&#x7DB2;">
+<meta name="DC.Creator" content="&#x884C;&#x653F;&#x9662;&#x74B0;&#x5883;&#x4FDD;&#x8B77;&#x7F72;-&#x74B0;&#x5883;&#x76E3;&#x6E2C;&#x53CA;&#x8CC7;&#x8A0A;&#x8655;">
+<meta name="DC.Contributor" content="&#x884C;&#x653F;&#x9662;&#x74B0;&#x5883;&#x4FDD;&#x8B77;&#x7F72;-&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x8CC7;&#x8A0A;&#x7DB2;">
+<meta name="DC.Source" content="&#x884C;&#x653F;&#x9662;&#x74B0;&#x5883;&#x4FDD;&#x8B77;&#x7F72;-&#x74B0;&#x5883;&#x76E3;&#x6E2C;&#x53CA;&#x8CC7;&#x8A0A;&#x8655;">
+<meta name="DC.Publisher" content="&#x884C;&#x653F;&#x9662;&#x74B0;&#x5883;&#x4FDD;&#x8B77;&#x7F72;-&#x74B0;&#x5883;&#x76E3;&#x6E2C;&#x53CA;&#x8CC7;&#x8A0A;&#x8655;">
+<meta name="DC.Rights" content="&#x884C;&#x653F;&#x9662;&#x74B0;&#x5883;&#x4FDD;&#x8B77;&#x7F72;">
+<meta name="DC.Type" content="text/html">
+<meta name="DC.Format" content="text">
+<meta name="DC.Language" content="&#x4E2D;&#x6587;">
+<meta name="DC.coverage.t.max" content="2007-12-13">
+<meta name="DC.coverage.t.min" content="2010-12-31">
+<meta name="DC.Date" content="2007-12-10 17:08 ">
+</head>
+<body>
+    <form name="form1" method="post" action="/taqm/tw/default.aspx" id="form1">
+<div>
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="jbAGPBEhfyewbXjt5RZKpV3QRXwR1rhlrVzCDoUUM4gpBcLJy/NJdwBmXdkXBoVekDJ0wyQXu4pnfh05Bhll2cjboWUEqNXVpklmfA4IBOIcD+WnnrWvLUnzAE66wv6BCxhm/KJYNHZuCJE3aJw1SqP9b6nuEkeLjY1ycWprJcArQgTICSr1fVpEFxVMnSrRBAvU2A==">
+</div>
+
+
+<script src="/taqm/ScriptResource.axd?d=sp2P_RYy-TuQvTsM9sK93IbeRwycbis4nSCFH6oVJ12xmqcaTIXpZYqxtQfZDCIv7ls9f2xVJ9fSDOGF3WffQsoenuj5zLAhWJ4W0TnWt_ecrHfbNTT4xc0GwfzBJMdGIs9thEYiokimTbES7_z7VDjFXvc1&amp;t=635683397975186168" type="text/javascript"></script>
+<div>
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="0C858E1A">
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="qCqTpj4VgE7nfcffglqmkCOs1hyGNgM5qf5H3egGlgF1LLbb4t66bz3k2X8LtBm+Sd3rSA4PZmcEkSEB/b9V3+2o/YVEG/V9DDv+5GdWQk/sRwWvmz4zBFJ2KgV2bLSqIZl8GQ==">
+</div>
+        
+<div id="outer-wrapper">
+<!-- outer-wrapper -->
+<div id="header-wrapper">
+<!-- header-wrapper -->
+<div id="header-inner">
+<div id="header-menu"><span id="header-menu-span"><a accesskey="T"></a><a accesskey="U" class="access" href="SiteMap.aspx" title="&#x4E0A;&#x65B9;&#x5C0E;&#x89BD;&#x9023;&#x7D50;&#x5340;"> ::: </a> <a href="https://taqm.epa.gov.tw/taqm/tw/SiteMap.aspx">&#x7DB2;&#x7AD9;&#x5730;&#x5716;</a>&#xFF5C;<span id="Languages1_labHtml"><a href="/taqm/en/default.aspx" target="en">English</a>&#xFF5C;</span>
+<a href="https://epamail.epa.gov.tw/front/mailboxhome" target="_blank">&#x610F;&#x898B;&#x4FE1;&#x7BB1;</a>&#xFF5C;<a href="https://taqm.epa.gov.tw/taqm/tw/b0902.aspx">&#x5E38;&#x898B;&#x554F;&#x984C;</a></span></div>
+<a href="https://www.epa.gov.tw/"><img src="../resource/pixel.gif" id="picHome" title="&#x56DE;&#x74B0;&#x4FDD;&#x7F72;&#x9996;&#x9801;" alt="&#x56DE;&#x74B0;&#x4FDD;&#x7F72;&#x9996;&#x9801;" width="260" height="50" style="border:0;" border="0"></a>
+</div>
+<!-- header-wrapper -->
+</div>
+
+<div id="content-wrapper"><!-- content-wrapper -->
+<table class="box" data-summary="layout">
+<tbody><tr><td style="width:170px" valign="top">
+
+<div id="menu-wrapper"><!-- menu-wrapper -->
+<a accesskey="L" class="access" href="SiteMap.aspx" title="&#x5DE6;&#x5074;&#x4E3B;&#x9078;&#x55AE;"> ::: </a>
+<!-- BOX START -->
+<table data-summary="layout" class="box"><tbody>
+              <tr>
+                <td class="up-left"></td>
+                <td class="up"></td>
+                <td class="up-right"></td></tr>
+              <tr>
+                <td class="left"></td>
+                <td class="content">
+<!-- CONTENT START -->
+<div class="box-title"><h1 id="MainMenu"><a href="default.aspx" id="XF09S" title="&#x56DE;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x76E3;&#x6E2C;&#x7DB2;&#x9996;&#x9801;"><b>&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x76E3;&#x6E2C;&#x7DB2;</b></a></h1></div>
+<div id="MenuBox1" class="MenuBox"> 
+<div class="toggler level0" id="0"><a href="javascript:void(0)" title="">&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x76E3;&#x6E2C;</a></div>
+<div class="accordion">
+<div class="toggler level1" id="1"><a href="javascript:void(0)" title="">&#x666E;&#x901A;&#x6E2C;&#x7AD9;</a></div>
+<div class="accordion">
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0101.aspx" title="&#x986F;&#x793A;&#x300C;&#x80CC;&#x666F;&#x8AAA;&#x660E;&#x300D;">&#x80CC;&#x666F;&#x8AAA;&#x660E;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/a0102.aspx" title="&#x986F;&#x793A;&#x300C;&#x5404;&#x6578;&#x64DA;&#x63D0;&#x4F9B;&#x55AE;&#x4F4D;&#x6E2C;&#x7AD9;&#x985E;&#x578B;&#x300D;">&#x5404;&#x6578;&#x64DA;&#x63D0;&#x4F9B;&#x55AE;&#x4F4D;&#x6E2C;&#x7AD9;&#x985E;&#x578B;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0107.aspx" title="&#x986F;&#x793A;&#x300C;&#x6E2C;&#x7AD9;&#x6CBF;&#x9769;&#x300D;">&#x6E2C;&#x7AD9;&#x6CBF;&#x9769;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0106.aspx" title="&#x986F;&#x793A;&#x300C;&#x76E3;&#x6E2C;&#x76EE;&#x7684;&#x300D;">&#x76E3;&#x6E2C;&#x76EE;&#x7684;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0102-3.aspx" title="&#x986F;&#x793A;&#x300C;&#x76E3;&#x6E2C;&#x5100;&#x5668;&#x300D;">&#x76E3;&#x6E2C;&#x5100;&#x5668;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/AqiSiteMap.aspx" title="&#x986F;&#x793A;&#x300C;&#x6E2C;&#x7AD9;&#x8CC7;&#x8A0A;&#x300D;">&#x6E2C;&#x7AD9;&#x8CC7;&#x8A0A;</a></div>
+</div>
+<div class="toggler level1" id="2"><a href="javascript:void(0)" title="">&#x4EA4;&#x901A;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x76E3;&#x6E2C;</a></div>
+<div class="accordion">
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/traffic-1.aspx" title="&#x986F;&#x793A;&#x300C;&#x80CC;&#x666F;&#x8AAA;&#x660E;&#x300D;">&#x80CC;&#x666F;&#x8AAA;&#x660E;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/traffic-2.aspx" title="&#x986F;&#x793A;&#x300C;&#x76E3;&#x6E2C;&#x76EE;&#x7684;&#x300D;">&#x76E3;&#x6E2C;&#x76EE;&#x7684;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/traffic-3.aspx" title="&#x986F;&#x793A;&#x300C;&#x4EA4;&#x901A;&#x7AD9;&#x7684;&#x7279;&#x6027;&#x300D;">&#x4EA4;&#x901A;&#x7AD9;&#x7684;&#x7279;&#x6027;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/traffic-4.aspx" title="&#x986F;&#x793A;&#x300C;&#x6E2C;&#x7AD9;&#x4ECB;&#x7D39;&#x300D;">&#x6E2C;&#x7AD9;&#x4ECB;&#x7D39;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/Traffic.aspx" title="&#x986F;&#x793A;&#x300C;&#x5168;&#x570B;&#x4EA4;&#x901A;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x76E3;&#x6E2C;&#x300D;">&#x5168;&#x570B;&#x4EA4;&#x901A;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x76E3;&#x6E2C;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/Traffic-TCC.aspx" title="&#x986F;&#x793A;&#x300C;&#x81FA;&#x4E2D;&#x5E02;&#x4EA4;&#x901A;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x76E3;&#x6E2C;&#x300D;">&#x81FA;&#x4E2D;&#x5E02;&#x4EA4;&#x901A;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x76E3;&#x6E2C;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/Traffic-NTC.aspx" title="&#x986F;&#x793A;&#x300C;&#x5357;&#x6295;&#x7E23;&#x4EA4;&#x901A;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x76E3;&#x6E2C;&#x300D;">&#x5357;&#x6295;&#x7E23;&#x4EA4;&#x901A;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x76E3;&#x6E2C;</a></div>
+</div>
+<div class="toggler level1" id="3"><a href="javascript:void(0)" title="">&#x5149;&#x5316;&#x6E2C;&#x7AD9;</a></div>
+<div class="accordion">
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0104.aspx" title="&#x986F;&#x793A;&#x300C;&#x80CC;&#x666F;&#x8AAA;&#x660E;&#x300D;">&#x80CC;&#x666F;&#x8AAA;&#x660E;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0104-3.aspx" title="&#x986F;&#x793A;&#x300C;&#x76E3;&#x6E2C;&#x76EE;&#x7684;&#x300D;">&#x76E3;&#x6E2C;&#x76EE;&#x7684;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0104-2.aspx" title="&#x986F;&#x793A;&#x300C;&#x6E2C;&#x7AD9;&#x4ECB;&#x7D39;&#x300D;">&#x6E2C;&#x7AD9;&#x4ECB;&#x7D39;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0104-4.aspx" title="&#x986F;&#x793A;&#x300C;&#x76E3;&#x6E2C;&#x5100;&#x5668;&#x300D;">&#x76E3;&#x6E2C;&#x5100;&#x5668;</a></div>
+</div>
+<div class="toggler level1" id="4"><a href="javascript:void(0)" title="">&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x6307;&#x6A19;</a></div>
+<div class="accordion">
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0201.aspx" title="&#x986F;&#x793A;&#x300C;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x6307;&#x6A19;&#x300D;">&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x6307;&#x6A19;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0202.aspx" title="&#x986F;&#x793A;&#x300C;&#x5404;&#x9805;&#x6C61;&#x67D3;&#x7269;&#x300D;">&#x5404;&#x9805;&#x6C61;&#x67D3;&#x7269;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0203.aspx" title="&#x986F;&#x793A;&#x300C;&#x5373;&#x6642;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x6307;&#x6A19;&#x300D;">&#x5373;&#x6642;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x6307;&#x6A19;</a></div>
+</div>
+<div class="level1-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0204.aspx" title="&#x986F;&#x793A;&#x300C;&#x9810;&#x5831;&#x4F5C;&#x696D;&#x300D;">&#x9810;&#x5831;&#x4F5C;&#x696D;</a></div>
+<div class="level1-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0206.aspx" title="&#x986F;&#x793A;&#x300C;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x6A19;&#x6E96;&#x300D;">&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x6A19;&#x6E96;</a></div>
+<div class="toggler level1" id="5"><a href="javascript:void(0)" title="">&#x5100;&#x5668;&#x8CC7;&#x6599;&#x5EAB;</a></div>
+<div class="accordion">
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b1300.aspx" title="&#x986F;&#x793A;&#x300C;&#x80CC;&#x666F;&#x8AAA;&#x660E;&#x300D;">&#x80CC;&#x666F;&#x8AAA;&#x660E;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b1301.aspx" title="&#x986F;&#x793A;&#x300C;&#x4E00;&#x6C27;&#x5316;&#x78B3;(CO)&#x300D;">&#x4E00;&#x6C27;&#x5316;&#x78B3;(CO)</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b1302.aspx" title="&#x986F;&#x793A;&#x300C;&#x81ED;&#x6C27;(O3)&#x300D;">&#x81ED;&#x6C27;(O3)</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b1303.aspx" title="&#x986F;&#x793A;&#x300C;&#x6C2E;&#x6C27;&#x5316;&#x7269;(NOx)&#x300D;">&#x6C2E;&#x6C27;&#x5316;&#x7269;(NOx)</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b1304.aspx" title="&#x986F;&#x793A;&#x300C;&#x4E8C;&#x6C27;&#x5316;&#x786B;(SO2)&#x300D;">&#x4E8C;&#x6C27;&#x5316;&#x786B;(SO2)</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b1305.aspx" title="&#x986F;&#x793A;&#x300C;&#x61F8;&#x6D6E;&#x5FAE;&#x7C92;(PM10)&#x8C9D;&#x4ED6;&#x5C04;&#x7DDA;&#x5206;&#x6790;&#x6CD5;&#x300D;">&#x61F8;&#x6D6E;&#x5FAE;&#x7C92;(PM10)&#x8C9D;&#x4ED6;&#x5C04;&#x7DDA;&#x5206;&#x6790;&#x6CD5;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b1306.aspx" title="&#x986F;&#x793A;&#x300C;&#x61F8;&#x6D6E;&#x5FAE;&#x7C92;(PM10)&#x8CEA;&#x91CF;&#x6163;&#x6027;&#x6CD5;&#x300D;">&#x61F8;&#x6D6E;&#x5FAE;&#x7C92;(PM10)&#x8CEA;&#x91CF;&#x6163;&#x6027;&#x6CD5;</a></div>
+</div>
+<div class="toggler level1" id="6"><a href="javascript:void(0)" title="">&#x5FAE;&#x8108;&#x885D;&#x96F7;&#x5C04;&#x96F7;&#x9054;&#x6E2C;&#x7AD9;</a></div>
+<div class="accordion">
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/mplnet-1.aspx" title="&#x986F;&#x793A;&#x300C;&#x80CC;&#x666F;&#x8AAA;&#x660E;&#x300D;">&#x80CC;&#x666F;&#x8AAA;&#x660E;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/mplnet-2.aspx" title="&#x986F;&#x793A;&#x300C;&#x6E2C;&#x7AD9;&#x6CBF;&#x9769;&#x300D;">&#x6E2C;&#x7AD9;&#x6CBF;&#x9769;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/mplnet-3.aspx" title="&#x986F;&#x793A;&#x300C;&#x76E3;&#x6E2C;&#x5100;&#x5668;&#x300D;">&#x76E3;&#x6E2C;&#x5100;&#x5668;</a></div>
+</div>
+</div>
+<div class="item"><a href="/dust/" target="_blank" title="&#x53E6;&#x958B;&#x8996;&#x7A97;&#x986F;&#x793A;&#x300C;&#x6C99;&#x5875;&#x7DB2;&#x7AD9;&#x300D;">&#x6C99;&#x5875;&#x7DB2;&#x7AD9;</a></div>
+<div class="toggler level0" id="7"><a href="javascript:void(0)" title="">&#x6CB3;&#x5DDD;&#x63DA;&#x5875;&#x76E3;&#x6E2C;</a></div>
+<div class="accordion">
+<div class="level1-item"><a href="https://taqm.epa.gov.tw/taqm/tw/RiverDust.aspx" title="&#x986F;&#x793A;&#x300C;&#x5373;&#x6642;&#x76E3;&#x6E2C;&#x8207;&#x6E2C;&#x7AD9;&#x4ECB;&#x7D39;&#x300D;">&#x5373;&#x6642;&#x76E3;&#x6E2C;&#x8207;&#x6E2C;&#x7AD9;&#x4ECB;&#x7D39;</a></div>
+<div class="level1-item"><a href="https://taqm.epa.gov.tw/taqm/tw/RiverDustHourlyData.aspx" title="&#x986F;&#x793A;&#x300C;&#x5C0F;&#x6642;&#x503C;&#x67E5;&#x8A62;&#x300D;">&#x5C0F;&#x6642;&#x503C;&#x67E5;&#x8A62;</a></div>
+<div class="level1-item"><a href="https://taqm.epa.gov.tw/taqm/tw/RiverDustCarData.aspx" title="&#x986F;&#x793A;&#x300C;&#x76E3;&#x6E2C;&#x8ECA;&#x5DE1;&#x8FF4;&#x884C;&#x7A0B;&#x300D;">&#x76E3;&#x6E2C;&#x8ECA;&#x5DE1;&#x8FF4;&#x884C;&#x7A0B;</a></div>
+</div>
+<div class="toggler level0" id="8"><a href="javascript:void(0)" title="">&#x7D2B;&#x5916;&#x7DDA;&#x76E3;&#x6E2C;</a></div>
+<div class="accordion">
+<div class="level1-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b12081.aspx" title="&#x986F;&#x793A;&#x300C;&#x8A8D;&#x8B58;&#x7D2B;&#x5916;&#x7DDA;&#x300D;">&#x8A8D;&#x8B58;&#x7D2B;&#x5916;&#x7DDA;</a></div>
+<div class="level1-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b12071.aspx" title="&#x986F;&#x793A;&#x300C;&#x7D2B;&#x5916;&#x7DDA;&#x76F8;&#x95DC;&#x8CC7;&#x8A0A;&#x300D;">&#x7D2B;&#x5916;&#x7DDA;&#x76F8;&#x95DC;&#x8CC7;&#x8A0A;</a></div>
+<div class="toggler level1" id="9"><a href="javascript:void(0)" title="">&#x7D2B;&#x5916;&#x7DDA;&#x8F14;&#x52A9;&#x6559;&#x6750;</a></div>
+<div class="accordion">
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b12091.aspx" title="&#x986F;&#x793A;&#x300C;&#x570B;&#x5C0F;&#x7248;&#x300D;">&#x570B;&#x5C0F;&#x7248;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b12092.aspx" title="&#x986F;&#x793A;&#x300C;&#x570B;&#x4E2D;&#x7248;&#x300D;">&#x570B;&#x4E2D;&#x7248;</a></div>
+</div>
+</div>
+<div class="toggler level0" id="10"><a href="javascript:void(0)" title="">&#x54C1;&#x8CEA;&#x4FDD;&#x8B49;&#x4F5C;&#x696D;</a></div>
+<div class="accordion">
+<div class="level1-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0801.aspx" title="&#x986F;&#x793A;&#x300C;&#x80CC;&#x666F;&#x8AAA;&#x660E;&#x300D;">&#x80CC;&#x666F;&#x8AAA;&#x660E;</a></div>
+<div class="level1-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0802.aspx" title="&#x986F;&#x793A;&#x300C;&#x54C1;&#x4FDD;&#x4F5C;&#x696D;&#x300D;">&#x54C1;&#x4FDD;&#x4F5C;&#x696D;</a></div>
+<div class="level1-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0803.aspx" title="&#x986F;&#x793A;&#x300C;&#x54C1;&#x4FDD;&#x4F5C;&#x696D;&#x898F;&#x7BC4;&#x300D;">&#x54C1;&#x4FDD;&#x4F5C;&#x696D;&#x898F;&#x7BC4;</a></div>
+<div class="level1-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0804.aspx" title="&#x986F;&#x793A;&#x300C;&#x7CFB;&#x7D71;&#x67E5;&#x6838;&#x4F5C;&#x696D;&#x6D41;&#x7A0B;&#x300D;">&#x7CFB;&#x7D71;&#x67E5;&#x6838;&#x4F5C;&#x696D;&#x6D41;&#x7A0B;</a></div>
+<div class="level1-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0805.aspx" title="&#x986F;&#x793A;&#x300C;&#x7E3E;&#x6548;&#x67E5;&#x6838;&#x300D;">&#x7E3E;&#x6548;&#x67E5;&#x6838;</a></div>
+</div>
+<div class="toggler level0" id="11"><a href="javascript:void(0)" title="">&#x8CC7;&#x6599;&#x67E5;&#x8A62;&#x8207;&#x670D;&#x52D9;</a></div>
+<div class="accordion">
+<div class="toggler level1" id="12"><a href="javascript:void(0)" title="">&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x6E2C;&#x7AD9;</a></div>
+<div class="accordion">
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/HourlyData.aspx" title="&#x986F;&#x793A;&#x300C;&#x5373;&#x6642;&#x503C;&#x67E5;&#x8A62;&#x300D;">&#x5373;&#x6642;&#x503C;&#x67E5;&#x8A62;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/PSIOver100MonthlyReport.aspx" title="&#x986F;&#x793A;&#x300C;&#x4E0D;&#x826F;&#x65E5;&#x6578;&#x6708;&#x5831;&#x8868;(PSI)&#x300D;">&#x4E0D;&#x826F;&#x65E5;&#x6578;&#x6708;&#x5831;&#x8868;(PSI)</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/AqiOverMonthlyReport.aspx" title="&#x986F;&#x793A;&#x300C;&#x4E0D;&#x826F;&#x65E5;&#x6578;&#x6708;&#x5831;&#x8868;(AQI)&#x300D;">&#x4E0D;&#x826F;&#x65E5;&#x6578;&#x6708;&#x5831;&#x8868;(AQI)</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/PollutantMonitoringDataMonthlyReport.aspx" title="&#x986F;&#x793A;&#x300C;&#x6C61;&#x67D3;&#x7269;&#x6E2C;&#x503C;&#x6708;&#x5831;&#x8868;&#x300D;">&#x6C61;&#x67D3;&#x7269;&#x6E2C;&#x503C;&#x6708;&#x5831;&#x8868;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/MonthlyAverage.aspx" title="&#x986F;&#x793A;&#x300C;&#x6708;&#x5E73;&#x5747;&#x503C;&#x67E5;&#x8A62;&#x300D;">&#x6708;&#x5E73;&#x5747;&#x503C;&#x67E5;&#x8A62;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/YearlyDataDownload.aspx" title="&#x986F;&#x793A;&#x300C;&#x6B77;&#x5E74;&#x76E3;&#x6E2C;&#x8CC7;&#x6599;&#x4E0B;&#x8F09;&#x300D;">&#x6B77;&#x5E74;&#x76E3;&#x6E2C;&#x8CC7;&#x6599;&#x4E0B;&#x8F09;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/ContourMap.aspx" title="&#x986F;&#x793A;&#x300C;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x6FC3;&#x5EA6;&#x5716;&#x300D;">&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x6FC3;&#x5EA6;&#x5716;</a></div>
+<div class="level2-item"><a href="http://taqm.epa.gov.tw/airgis/" target="_blank" title="&#x53E6;&#x958B;&#x8996;&#x7A97;&#x986F;&#x793A;&#x300C;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;GIS&#x52D5;&#x614B;&#x5716;&#x300D;">&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;GIS&#x52D5;&#x614B;&#x5716;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0609.aspx" title="&#x986F;&#x793A;&#x300C;&#x6B77;&#x5E74;&#x61C9;&#x7528;&#x6210;&#x679C;&#x300D;">&#x6B77;&#x5E74;&#x61C9;&#x7528;&#x6210;&#x679C;</a></div>
+<div class="level2-item"><a href="/pm25/tw/HourlyData.aspx" target="_blank" title="&#x53E6;&#x958B;&#x8996;&#x7A97;&#x986F;&#x793A;&#x300C;&#x7D30;&#x61F8;&#x6D6E;&#x5FAE;&#x7C92;&#x5373;&#x6642;&#x503C;&#x67E5;&#x8A62;&#x300D;">&#x7D30;&#x61F8;&#x6D6E;&#x5FAE;&#x7C92;&#x5373;&#x6642;&#x503C;&#x67E5;&#x8A62;</a></div>
+<div class="level2-item"><a href="/pm25/tw/MonthlyAverage.aspx" target="_blank" title="&#x53E6;&#x958B;&#x8996;&#x7A97;&#x986F;&#x793A;&#x300C;&#x7D30;&#x61F8;&#x6D6E;&#x5FAE;&#x7C92;&#x6708;&#x5747;&#x503C;&#x67E5;&#x8A62;&#x300D;">&#x7D30;&#x61F8;&#x6D6E;&#x5FAE;&#x7C92;&#x6708;&#x5747;&#x503C;&#x67E5;&#x8A62;</a></div>
+</div>
+<div class="level1-item"><a href="https://taqm.epa.gov.tw/taqm/tw/PamsDaily.aspx" title="&#x986F;&#x793A;&#x300C;&#x5149;&#x5316;&#x6E2C;&#x7AD9;&#x300D;">&#x5149;&#x5316;&#x6E2C;&#x7AD9;</a></div>
+<div class="toggler level1" id="13"><a href="javascript:void(0)" title="">&#x5927;&#x6C23;&#x9059;&#x6E2C;</a></div>
+<div class="accordion">
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/Mplnet.aspx" title="&#x986F;&#x793A;&#x300C;&#x5FAE;&#x8108;&#x885D;&#x96F7;&#x5C04;&#x96F7;&#x9054;&#x6E2C;&#x7AD9;&#x5716;&#x6A94;&#x67E5;&#x8A62;&#x300D;">&#x5FAE;&#x8108;&#x885D;&#x96F7;&#x5C04;&#x96F7;&#x9054;&#x6E2C;&#x7AD9;&#x5716;&#x6A94;&#x67E5;&#x8A62;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/Modis.aspx" title="&#x986F;&#x793A;&#x300C;&#x885B;&#x661F;&#x9059;&#x6E2C;&#x5F71;&#x50CF;&#x300D;">&#x885B;&#x661F;&#x9059;&#x6E2C;&#x5F71;&#x50CF;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/Aeronet.aspx" title="&#x986F;&#x793A;&#x300C;&#x592A;&#x967D;&#x8F3B;&#x5C04;&#x8A08;&#x8CC7;&#x6599;&#x67E5;&#x8A62;&#x300D;">&#x592A;&#x967D;&#x8F3B;&#x5C04;&#x8A08;&#x8CC7;&#x6599;&#x67E5;&#x8A62;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/Firms.aspx" title="&#x986F;&#x793A;&#x300C;&#x706B;&#x9EDE;&#x89C0;&#x6E2C;&#x300D;">&#x706B;&#x9EDE;&#x89C0;&#x6E2C;</a></div>
+</div>
+<div class="toggler level1" id="14"><a href="javascript:void(0)" title="">&#x7D2B;&#x5916;&#x7DDA;</a></div>
+<div class="accordion">
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/UvMap.aspx" title="&#x986F;&#x793A;&#x300C;&#x7D2B;&#x5916;&#x7DDA;&#x73FE;&#x6CC1;&#x300D;">&#x7D2B;&#x5916;&#x7DDA;&#x73FE;&#x6CC1;</a></div>
+<div class="level2-item"><a href="http://www.cwb.gov.tw/V7/observe/UVI/UVI_Max.htm" target="_blank" title="&#x53E6;&#x958B;&#x8996;&#x7A97;&#x986F;&#x793A;&#x300C;&#x7D2B;&#x5916;&#x7DDA;&#x4ECA;&#x65E5;&#x6700;&#x5927;&#x503C;&#xFF08;&#x9023;&#x7D50;&#x81F3;&#x6C23;&#x8C61;&#x5C40;&#xFF09;&#x300D;">&#x7D2B;&#x5916;&#x7DDA;&#x4ECA;&#x65E5;&#x6700;&#x5927;&#x503C;&#xFF08;&#x9023;&#x7D50;&#x81F3;&#x6C23;&#x8C61;&#x5C40;&#xFF09;</a></div>
+<div class="level2-item"><a href="http://www.cwb.gov.tw/V7/observe/UVI/UVI_Hist.htm" target="_blank" title="&#x53E6;&#x958B;&#x8996;&#x7A97;&#x986F;&#x793A;&#x300C;&#x7D2B;&#x5916;&#x7DDA;&#x6B77;&#x53F2;&#x8CC7;&#x6599;&#xFF08;&#x9023;&#x7D50;&#x81F3;&#x6C23;&#x8C61;&#x5C40;&#xFF09;&#x300D;">&#x7D2B;&#x5916;&#x7DDA;&#x6B77;&#x53F2;&#x8CC7;&#x6599;&#xFF08;&#x9023;&#x7D50;&#x81F3;&#x6C23;&#x8C61;&#x5C40;&#xFF09;</a></div>
+<div class="level2-item"><a href="/uvi/UVI-7D/graphics/Welcome.html" target="_blank" title="&#x53E6;&#x958B;&#x8996;&#x7A97;&#x986F;&#x793A;&#x300C;&#x89C0;&#x6E2C;&#x7B49;&#x503C;&#x7DDA;&#x5716;&#x300D;">&#x89C0;&#x6E2C;&#x7B49;&#x503C;&#x7DDA;&#x5716;</a></div>
+<div class="level2-item"><a href="https://taqm.epa.gov.tw/taqm/tw/UvForcastMap.aspx" title="&#x986F;&#x793A;&#x300C;&#x7D2B;&#x5916;&#x7DDA;&#x6307;&#x6578;&#x9810;&#x5831;&#x300D;">&#x7D2B;&#x5916;&#x7DDA;&#x6307;&#x6578;&#x9810;&#x5831;</a></div>
+<div class="level2-item"><a href="/uvi/uvi7/tm/graphics/Welcome.html" target="_blank" title="&#x53E6;&#x958B;&#x8996;&#x7A97;&#x986F;&#x793A;&#x300C;&#x9810;&#x6E2C;&#x7B49;&#x503C;&#x7DDA;&#x5716;&#x300D;">&#x9810;&#x6E2C;&#x7B49;&#x503C;&#x7DDA;&#x5716;</a></div>
+</div>
+<div class="toggler level1" id="15"><a href="javascript:void(0)" title="">&#x5927;&#x7532;&#x5ABD;&#x7956;&#x9076;&#x5883;&#x7A7A;&#x54C1;&#x76E3;&#x6E2C;&#x6210;&#x679C;</a></div>
+<div class="accordion">
+<div class="level2-item"><a href="https://ienv.epa.gov.tw/IoT/" target="_blank" title="&#x53E6;&#x958B;&#x8996;&#x7A97;&#x986F;&#x793A;&#x300C;2016&#x5E74;&#x5EA6;&#x300D;">2016&#x5E74;&#x5EA6;</a></div>
+<div class="level2-item"><a href="https://ienv.epa.gov.tw/WoT/" target="_blank" title="&#x53E6;&#x958B;&#x8996;&#x7A97;&#x986F;&#x793A;&#x300C;2017&#x5E74;&#x5EA6;&#x300D;">2017&#x5E74;&#x5EA6;</a></div>
+</div>
+</div>
+<div class="toggler level0" id="16"><a href="javascript:void(0)" title="">&#x5730;&#x65B9;&#x76E3;&#x6E2C;&#x7AD9;&#x8CC7;&#x6599;</a></div>
+<div class="accordion">
+<div class="level1-item"><a href="https://taqm.epa.gov.tw/taqm/tw/EpbSiteListInMap.aspx" title="&#x986F;&#x793A;&#x300C;&#x6E2C;&#x7AD9;&#x8CC7;&#x8A0A;&#x300D;">&#x6E2C;&#x7AD9;&#x8CC7;&#x8A0A;</a></div>
+<div class="level1-item"><a href="https://taqm.epa.gov.tw/taqm/tw/EpbDataHourly.aspx" title="&#x986F;&#x793A;&#x300C;&#x5C0F;&#x6642;&#x503C;&#x67E5;&#x8A62;&#x300D;">&#x5C0F;&#x6642;&#x503C;&#x67E5;&#x8A62;</a></div>
+</div>
+<div class="item"><a href="/lulin/" target="_blank" title="&#x53E6;&#x958B;&#x8996;&#x7A97;&#x986F;&#x793A;&#x300C;&#x9E7F;&#x6797;&#x5C71;&#x80CC;&#x666F;&#x7AD9;&#x300D;">&#x9E7F;&#x6797;&#x5C71;&#x80CC;&#x666F;&#x7AD9;</a></div>
+<div class="item"><a href="/dongyin-dongsha/" target="_blank" title="&#x53E6;&#x958B;&#x8996;&#x7A97;&#x986F;&#x793A;&#x300C;&#x6771;&#x6C99;&#x6771;&#x5F15;&#x80CC;&#x666F;&#x7AD9;&#x300D;">&#x6771;&#x6C99;&#x6771;&#x5F15;&#x80CC;&#x666F;&#x7AD9;</a></div>
+<div class="item"><a href="/SouthSea/" target="_blank" title="&#x53E6;&#x958B;&#x8996;&#x7A97;&#x986F;&#x793A;&#x300C;&#x5357;&#x6D77;&#x74B0;&#x5883;&#x54C1;&#x8CEA;&#x76E3;&#x6E2C;&#x300D;">&#x5357;&#x6D77;&#x74B0;&#x5883;&#x54C1;&#x8CEA;&#x76E3;&#x6E2C;</a></div>
+<div class="toggler level0" id="17"><a href="javascript:void(0)" title="">&#x5E38;&#x898B;&#x554F;&#x984C;</a></div>
+<div class="accordion">
+<div class="level1-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0205.aspx" title="&#x986F;&#x793A;&#x300C;&#x76F8;&#x95DC;&#x8A5E;&#x5F59;&#x53CA;&#x5B9A;&#x7FA9;&#x300D;">&#x76F8;&#x95DC;&#x8A5E;&#x5F59;&#x53CA;&#x5B9A;&#x7FA9;</a></div>
+<div class="level1-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0902.aspx" title="&#x986F;&#x793A;&#x300C;&#x5E38;&#x898B;&#x554F;&#x984C;&#x300D;">&#x5E38;&#x898B;&#x554F;&#x984C;</a></div>
+<div class="level1-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0902-pams.aspx" title="&#x986F;&#x793A;&#x300C;&#x5149;&#x5316;&#x6E2C;&#x7AD9;&#x6B77;&#x5E74;&#x8CC7;&#x6599;&#x4E0B;&#x8F09;&#x8CC7;&#x6599;&#x5448;&#x73FE;&#x4FEE;&#x6B63;&#x300D;">&#x5149;&#x5316;&#x6E2C;&#x7AD9;&#x6B77;&#x5E74;&#x8CC7;&#x6599;&#x4E0B;&#x8F09;&#x8CC7;&#x6599;&#x5448;&#x73FE;&#x4FEE;&#x6B63;</a></div>
+</div>
+<div class="toggler level0" id="18"><a href="javascript:void(0)" title="">&#x76F8;&#x95DC;&#x7DB2;&#x7AD9;</a></div>
+<div class="accordion">
+<div class="level1-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0901.aspx" title="&#x986F;&#x793A;&#x300C;&#x76F8;&#x95DC;&#x7DB2;&#x7AD9;&#x300D;">&#x76F8;&#x95DC;&#x7DB2;&#x7AD9;</a></div>
+<div class="level1-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0901-2.aspx" title="&#x986F;&#x793A;&#x300C;&#x4E16;&#x754C;&#x5404;&#x5730;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x73FE;&#x6CC1;&#x300D;">&#x4E16;&#x754C;&#x5404;&#x5730;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x73FE;&#x6CC1;</a></div>
+</div>
+<div class="level0-item"><a href="https://taqm.epa.gov.tw/taqm/tw/SiteMap.aspx" title="&#x986F;&#x793A;&#x300C;&#x7DB2;&#x7AD9;&#x5C0E;&#x89BD;&#x300D;">&#x7DB2;&#x7AD9;&#x5C0E;&#x89BD;</a></div>
+<div class="MENU-SEPARATOR">&#xA0;</div></div> 
+
+<script type="text/javascript">
+<!--
+
+$(document).ready(function(){
+    $('.MenuBox div.accordion').css({
+		display:'none',
+		overflow:'hidden'});
+		
+    $(".MenuBox div.toggler").click(slideShow);	
+    
+    var oSelected = $("div.selected");
+    if ( oSelected.length == 0 ) {
+        $("div.level0:first").next().slideDown("fast");
+    } // if
+    else {
+        oSelected.parent().slideDown("fast");
+        oSelected.parent().parent().slideDown("fast");
+    } // else
+        
+})
+function slideShow(e) {
+    var accordion = $(e.target).parent().next('.MenuBox div.accordion');
+    accordion.slideToggle("fast");
+/*    
+    if (accordion.is(':visible'))
+        accordion.slideUp("fast");
+    else 
+        accordion.slideDown("fast");
+*/        
+}
+-->    
+</script>
+
+<!-- CONTENT END --></td>
+                <td class="right"></td></tr>
+              <tr>
+                <td class="down-left"></td>
+                <td class="down"></td>
+                <td class="down-right"></td></tr>
+</tbody></table>
+<!-- BOX END -->
+
+<!-- BOX START -->
+<table id="Table1" data-summary="layout" class="box"><tbody>
+              <tr>
+                <td class="up-left"></td>
+                <td class="up"></td>
+                <td class="up-right"></td></tr>
+              <tr>
+                <td class="left"></td>
+                <td class="content">
+<!-- CONTENT START -->
+<div class="box-title"><h1 id="H2">&#x74B0;&#x5883;&#x5373;&#x6642;&#x901A;(app)</h1></div>
+<div style="text-align:center;"><a href="https://www.epa.gov.tw/ct.asp?xItem=29172&amp;ctNode=33321&amp;mp=epa" target="_blank"><img alt="&#x4E0B;&#x8F09;&#x74B0;&#x5883;&#x5373;&#x6642;&#x901A;(app)" title="&#x4E0B;&#x8F09;&#x74B0;&#x5883;&#x5373;&#x6642;&#x901A;(app)" src="../resource/app.png" width="130" style="border:0"></a></div>
+<!-- CONTENT END --></td>
+                <td class="right"></td></tr>
+              <tr>
+                <td class="down-left"></td>
+                <td class="down"></td>
+                <td class="down-right"></td></tr>
+</tbody></table>
+<!-- BOX END -->
+
+<!-- BOX START -->
+<table data-summary="layout" class="yellow-box"><tbody>
+              <tr>
+                <td class="up-left"></td>
+                <td class="up"></td>
+                <td class="up-right"></td></tr>
+              <tr>
+                <td class="left"></td>
+                <td class="content">
+<!-- CONTENT START -->
+<!--div class="box-title"><h1 id=""></h1></div-->
+<div id="labelsX"><a href="YearlyDataDownload.aspx" title="&#x6B77;&#x5E74;&#x76E3;&#x6E2C;&#x8CC7;&#x6599;&#x4E0B;&#x8F09;"><img src="images/label_YearlyDataDownload.gif" alt="&#x6B77;&#x5E74;&#x76E3;&#x6E2C;&#x8CC7;&#x6599;&#x4E0B;&#x8F09;"></a><br><a href="SiteListInMap.aspx" title="&#x6E2C;&#x7AD9;&#x8CC7;&#x8A0A;"><img src="images/label_SiteListInMap.jpg" alt="&#x6E2C;&#x7AD9;&#x8CC7;&#x8A0A;"></a><br><a href="HourlyData.aspx" title="&#x5373;&#x6642;&#x503C;&#x67E5;&#x8A62;"><img src="images/label_HourlyData.gif" alt="&#x5373;&#x6642;&#x503C;&#x67E5;&#x8A62;"></a><br><a href="b0609.aspx" title="&#x6B77;&#x5E74;&#x61C9;&#x7528;&#x6210;&#x679C;"><img src="images/label_b0609.gif" alt="&#x6B77;&#x5E74;&#x61C9;&#x7528;&#x6210;&#x679C;"></a><br></div>
+<!-- CONTENT END --></td>
+                <td class="right"></td></tr>
+              <tr>
+                <td class="down-left"></td>
+                <td class="down"></td>
+                <td class="down-right"></td></tr>
+</tbody></table>
+<!-- BOX END -->    
+    
+
+<div id="CounterBox"></div>
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-61831802-1', 'auto');
+  ga('send', 'pageview');
+
+
+$(document).ready(function(){ 
+    $.get("../aqs.ashx?act=hit&lang=tw", function (data) {
+		try {
+        if ( data.length == 0 )
+            $("#CounterBox").hide();
+        else
+            $("#CounterBox").html(data);
+		} catch (e) {$("#CounterBox").hide();}	
+    });
+});
+</script>    
+<!-- menu-wrapper -->
+</div>
+    </td><td valign="top" width="*">
+<div id="main-wrapper"><!-- main-wrapper -->
+<a accesskey="C" class="access" href="SiteMap.aspx" title="&#x4E2D;&#x9593;&#x5167;&#x5BB9;"> ::: </a>
+<div id="MaintainLine1_divNews" style="margin:5px;border: 1px solid #ff0000; background-color:#ffff99; padding: 3px; font-family:&#x6A19;&#x6977;&#x9AD4;;font-size:120%; font-weight:bold;display:none;"><img src="../resource/icon_Del.gif" id="MaintainLine1_imgClose" style="float:right;cursor:pointer;" alt="close" onclick="_fNcLoSe();">
+
+<script type="text/javascript">
+function _fNcLoSe() {
+    $("#MaintainLine1_divNews").slideUp(200);
+
+    var exp = new Date();
+    var sdt = exp.getFullYear() + '/' + ('0' + (exp.getMonth() + 1)).slice(-2) + '/' + ('0' + exp.getDate()).slice(-2);
+    exp.setTime(exp.getTime() + 24 * 60 * 60 * 1000);
+    document.cookie = "textar=" + escape(sdt) + ";expires=" + exp.toGMTString();    
+}
+
+$(document).ready(function() {
+    $("#MaintainLine1_divNews").hide();
+    if ( true ) {
+        // 載入資料
+        $.get("../aqs.ashx?act=MaintainLine&lang=tw", function (data) {
+            if ( data.length == 0 ) {
+                // NO DATA
+            } // if
+            else {
+                $("#MaintainLine1_divNews").html(data);
+                $("#MaintainLine1_divNews").slideDown(100);
+            } // else
+        });   
+    } // if
+});
+    
+</script>
+</div>
+
+
+<!-- CONTENT START -->
+<div id="path"><a href="https://www.epa.gov.tw/" title="&#x56DE;&#x300C;&#x74B0;&#x4FDD;&#x7F72;&#x300D;&#x9996;&#x9801;">&#x74B0;&#x4FDD;&#x7F72;</a>&#xFF3C;<a href="default.aspx" title="&#x56DE;&#x300C;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x76E3;&#x6E2C;&#x7DB2;&#x300D;&#x9996;&#x9801;">&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x76E3;&#x6E2C;&#x7DB2;</a>&#xFF3C;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x6307;&#x6A19;</div>
+<div id="tabsJ_SB"><ul><li id="current"><a href="AqiMap.aspx" title="&#x74B0;&#x3000;&#x4FDD;&#x3000;&#x7F72;"><span class="BIG">&#x74B0;&#x3000;&#x4FDD;&#x3000;&#x7F72;</span></a></li><li><a href="tabEPB.aspx" title="&#x5730;&#x65B9;&#x74B0;&#x4FDD;&#x5C40;"><span class="BIG">&#x5730;&#x65B9;&#x74B0;&#x4FDD;&#x5C40;</span></a></li><li><a href="tabTcc.aspx" title="&#x5927;&#x578B;&#x4E8B;&#x696D;"><span class="BIG">&#x5927;&#x578B;&#x4E8B;&#x696D;</span></a></li><li><a href="tabSpFac.aspx" title="&#x7279;&#x6B8A;&#x6027;&#x5DE5;&#x696D;&#x5340;"><span class="BIG">&#x7279;&#x6B8A;&#x6027;&#x5DE5;&#x696D;&#x5340;</span></a></li><li><a href="tabTaqmplat.aspx" title="&#x5168;&#x570B;&#x5373;&#x6642;&#x76E3;&#x6E2C;"><span class="BIG">&#x5168;&#x570B;&#x5373;&#x6642;&#x76E3;&#x6E2C;</span></a></li><li><a href="Traffic.aspx" title="&#x5168;&#x570B;&#x4EA4;&#x901A;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x76E3;&#x6E2C;"><span class="BIG">&#x5168;&#x570B;&#x4EA4;&#x901A;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x76E3;&#x6E2C;</span></a></li></ul></div>
+<div id="tabsJ"><ul><li id="current"><a href="AqiMap.aspx" title="&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x6307;&#x6A19;"><span>&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x6307;&#x6A19;</span></a></li><li><a href="AqiMapTGOS.aspx" title="&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x6307;&#x6A19;(GIS)"><span>&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x6307;&#x6A19;(GIS)</span></a></li><li><a href="AqiForecast.aspx" title="&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x9810;&#x5831;"><span>&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x9810;&#x5831;</span></a></li><li><a href="AqiHistory.aspx" title="&#x524D;&#x4E00;&#x65E5;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x6307;&#x6A19;"><span>&#x524D;&#x4E00;&#x65E5;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x6307;&#x6A19;</span></a></li><li><a href="/pm25/tw/PM25A.aspx" title="&#x7D30;&#x61F8;&#x6D6E;&#x5FAE;&#x7C92;&#x6FC3;&#x5EA6;" target="_blank"><span>&#x7D30;&#x61F8;&#x6D6E;&#x5FAE;&#x7C92;&#x6FC3;&#x5EA6;</span></a></li></ul></div>
+                        
+<div id="content">
+<span id="labContent"></span>
+  <div id="content-module">
+    
+<iframe style="width:860px;height:1300px;margin-top:10px;" src="../aqi-map.aspx" allowtransparency="true" scrolling="auto" border="0" frameborder="0"></iframe><p class="footText"></p>
+  </div>    
+</div>
+<div style="text-align:center;clear:both"><a href="javascript:window.scrollTo(0,0);"><img src="resource/top.gif" alt="&#x4E0A;&#x9801;" style="border:0px;"></a></div>
+<img src="../resource/pixel.gif" style="width:590px;height:1px;" alt="layout">
+<!-- CONTENT END -->
+
+<!-- main-wrapper --></div>
+</td>
+
+<td style="width:180px" valign="top"><div id="sidebar-wrapper"><!-- sidebar-wrapper -->
+<a accesskey="R" class="access" href="SiteMap.aspx" title="&#x53F3;&#x5074;&#x5373;&#x6642;&#x8CC7;&#x8A0A;"> ::: </a>
+<!-- BOX START -->
+<table data-summary="layout" class="box"><tbody>
+              <tr>
+                <td class="up-left"></td>
+                <td class="up"></td>
+                <td class="up-right"></td></tr>
+              <tr>
+                <td class="left"></td>
+                <td class="content">
+<!-- CONTENT START -->
+<div class="box-title"><h1 id="SearchBox">&#x5168;&#x6587;&#x6AA2;&#x7D22;</h1></div>
+
+
+<div id="SearchBox2">
+<label for="SearchBox1_txtKeyword" accesskey="S"></label>
+<input name="SearchBox1$txtKeyword" type="text" id="SearchBox1_txtKeyword" style="width:100px;">
+<input type="submit" name="SearchBox1$btnSubmit" value="" id="SearchBox1_btnSubmit" class="button-search"><br><img src="//www.google.com/uds/css/small-logo.png" alt="google search" style="float:right;">
+</div>
+<script type="text/javascript">
+<!--
+$(document).ready(function(){
+    $('#SearchBox1_txtKeyword').keypress(txtKeyword_onkeypress);
+})
+function txtKeyword_onkeypress(e) {
+	var iKeyCode = 0;
+	if (window.event)
+       iKeyCode = window.event.keyCode
+	else if (e)
+       iKeyCode = e.which; 
+
+	if ( iKeyCode==13 ) 
+	    $('#SearchBox1_btnSubmit').click();
+	
+	return false;
+}
+-->
+</script>
+<!-- CONTENT END --></td>
+                <td class="right"></td></tr>
+              <tr>
+                <td class="down-left"></td>
+                <td class="down"></td>
+                <td class="down-right"></td></tr>
+</tbody></table>
+<!-- BOX END -->
+
+<!-- BOX START -->
+<table data-summary="layout" class="box"><tbody>
+              <tr>
+                <td class="up-left"></td>
+                <td class="up"></td>
+                <td class="up-right"></td></tr>
+              <tr>
+                <td class="left"></td>
+                <td class="content">
+<!-- CONTENT START -->
+<div class="box-title"><h1 id="QuickLink">&#x5FEB;&#x901F;&#x9023;&#x7D50;</h1></div>
+                    <div id="QuickLink1" class="LinkBox"> 
+<div class="toggler level0" id="UiModule_QuickLink_QuickLink_0">&#x6E2C;&#x7AD9;&#x5730;&#x5716;&#x8CC7;&#x8A0A;</div>
+<div class="accordion">
+<div class="link-item"><a href="https://taqm.epa.gov.tw/taqm/tw/AqiSiteMap.aspx" title="&#x986F;&#x793A;&#x300C;&#x6E2C;&#x7AD9;&#x8CC7;&#x8A0A;&#x300D;">&#x6E2C;&#x7AD9;&#x8CC7;&#x8A0A;</a></div>
+</div>
+<div class="toggler level0" id="UiModule_QuickLink_QuickLink_1">&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x6307;&#x6A19; </div>
+<div class="accordion">
+<div class="link-item"><a href="https://taqm.epa.gov.tw/taqm/tw/AqiMap.aspx" title="&#x986F;&#x793A;&#x300C;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x6307;&#x6A19;&#x300D;">&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x6307;&#x6A19;</a></div>
+<div class="link-item"><a href="https://taqm.epa.gov.tw/taqm/tw/AqiForecast.aspx" title="&#x986F;&#x793A;&#x300C;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x9810;&#x5831;&#x300D;">&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x9810;&#x5831;</a></div>
+<div class="link-item"><a href="https://taqm.epa.gov.tw/taqm/tw/UvMap.aspx" title="&#x986F;&#x793A;&#x300C;&#x7D2B;&#x5916;&#x7DDA;&#x73FE;&#x6CC1;&#x300D;">&#x7D2B;&#x5916;&#x7DDA;&#x73FE;&#x6CC1;</a></div>
+<div class="link-item"><a href="https://taqm.epa.gov.tw/taqm/tw/UvForcastMap.aspx" title="&#x986F;&#x793A;&#x300C;&#x7D2B;&#x5916;&#x7DDA;&#x9810;&#x5831;&#x300D;">&#x7D2B;&#x5916;&#x7DDA;&#x9810;&#x5831;</a></div>
+<div class="link-item"><a href="https://taqm.epa.gov.tw/taqm/tw/PollutantMap.aspx" title="&#x986F;&#x793A;&#x300C;&#x5373;&#x6642;&#x6FC3;&#x5EA6;&#x52D5;&#x614B;&#x986F;&#x793A;&#x300D;">&#x5373;&#x6642;&#x6FC3;&#x5EA6;&#x52D5;&#x614B;&#x986F;&#x793A;</a></div>
+<div class="link-item"><a href="https://taqm.epa.gov.tw/taqm/tw/b0901-2.aspx" title="&#x986F;&#x793A;&#x300C;&#x4E16;&#x754C;&#x5404;&#x5730;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x73FE;&#x6CC1;&#x300D;">&#x4E16;&#x754C;&#x5404;&#x5730;&#x7A7A;&#x6C23;&#x54C1;&#x8CEA;&#x73FE;&#x6CC1;</a></div>
+</div>
+</div> 
+
+
+<!-- CONTENT END --></td>
+                <td class="right"></td></tr>
+              <tr>
+                <td class="down-left"></td>
+                <td class="down"></td>
+                <td class="down-right"></td></tr>
+</tbody></table>
+<!-- BOX END -->
+
+
+<!-- BOX START -->
+<table data-summary="layout" class="box"><tbody>
+              <tr>
+                <td class="up-left"></td>
+                <td class="up"></td>
+                <td class="up-right"></td></tr>
+              <tr>
+                <td class="left"></td>
+                <td class="content">
+<!-- CONTENT START -->
+<div class="box-title"><h1 id="WebCam">&#x6E2C;&#x7AD9;&#x5468;&#x570D;&#x5F71;&#x50CF;</h1></div>
+
+<div id="imgstore" style="xdisplay:none"> 
+<img src="//taqm.epa.gov.tw/taqm/resource/pixel.gif" alt="" width="160px" height="120px" id="imgBox" style="cursor:pointer;">
+<select id="WebCamBox_Imgs" style="font-size:12pt;width:160px;"></select>
+<div id="showhere"></div>
+<script type="text/javascript">
+    var urlBase = "/taqm/tw/WebCam/";
+    var urlImage = "//taqm.epa.gov.tw/taqm/webcam.ashx?type=s&site=";
+    var TIME_OUT = 4000;
+    var TIMER_ID = null;
+    function getUrl() {
+        var url = "";
+        var params = $("#WebCamBox_Imgs").val().split("|");
+        if (params.length==2) 
+            url = params[0]; // + "&ts=" + (new Date().getTime());
+            
+        return urlImage + url;
+    }
+    
+    $(document).ready(function() {
+    	document.getElementById("imgBox").onerror = function() { 
+            if ( TIMER_ID != null ) window.clearTimeout(TIMER_ID);
+            $("#imgstore").hide();
+    	}; 
+    	
+        // 載入資料
+        $.get("../aqs.ashx?act=WebCamBox&lang=tw", function (data) {
+            if ( data.Result == "ok" ) {
+                $(data.Data).each(function( index ) {
+                  addWebcam(this);
+                });    
+                
+                fnNext();
+            } // if
+            else {
+                if (window.console) console.log(data.Message)
+            } // else
+        });   
+    
+    });
+    
+    function addWebcam(data) {
+        $("#WebCamBox_Imgs").append($("<option></option>").attr("value", data.SiteId+"|"+data.SiteKey).text(data.SiteText));
+    }
+    
+    function fnNext() {
+        // NEXT
+        var v1 = $("#WebCamBox_Imgs").val();
+        $('#WebCamBox_Imgs option:selected').next().attr('selected', 'selected');
+        var v2 = $("#WebCamBox_Imgs").val();
+        if ( v1 == v2 ) $('#WebCamBox_Imgs option:first').next().attr('selected', 'selected');
+        
+        show();
+        
+    }
+    
+function show() {
+    if ( TIMER_ID != null ) window.clearTimeout(TIMER_ID);
+    
+    $("#imgBox").fadeTo(1000,0.30, function() {
+      $("#imgBox").attr("src",getUrl());
+      TIMER_ID = window.setTimeout(fnNext, TIME_OUT);
+    }).fadeTo(500,1);
+}    
+
+
+$("#imgBox").click(function() {
+    goPage();
+});
+    
+$("#WebCamBox_Imgs").change(function(){
+    var $me = $(this);
+    var selectIndex = $me.find(":selected").index();
+    
+    if ( selectIndex == 0 )
+        goPage();
+    else
+        show();
+});
+
+function goPage() {
+    var params = $("#WebCamBox_Imgs").val().split("|");
+    var url = urlBase;
+    if (params.length==2)
+        url += (params[1] + ".aspx");
+    else
+        url += "default.aspx";
+
+    document.location.href = url;
+}
+
+</script>
+</div>
+
+
+
+<!-- CONTENT END --></td>
+                <td class="right"></td></tr>
+              <tr>
+                <td class="down-left"></td>
+                <td class="down"></td>
+                <td class="down-right"></td></tr>
+</tbody></table>
+<!-- BOX END -->
+
+<!-- BOX START -->
+<table id="YoutubeForecast_box" data-summary="layout" class="box"><tbody>
+              <tr>
+                <td class="up-left"></td>
+                <td class="up"></td>
+                <td class="up-right"></td></tr>
+              <tr>
+                <td class="left"></td>
+                <td class="content">
+<!-- CONTENT START -->
+<div class="box-title"><h1 id="H1">&#x7A7A;&#x54C1;&#x5F71;&#x97F3;&#x64AD;&#x5831;</h1></div>
+<div id="YoutubeForecast"></div>
+<!-- CONTENT END --></td>
+                <td class="right"></td></tr>
+              <tr>
+                <td class="down-left"></td>
+                <td class="down"></td>
+                <td class="down-right"></td></tr>
+</tbody></table>
+<!-- BOX END -->
+
+<!-- sidebar-wrapper -->
+</div>
+</td></tr></tbody></table>
+
+
+
+<!-- content-wrapper --></div>
+<div id="footer">10042&#x81FA;&#x5317;&#x5E02;&#x4E2D;&#x6B63;&#x5340;&#x4E2D;&#x83EF;&#x8DEF;&#x4E00;&#x6BB5;83&#x865F; <a href="https://www.epa.gov.tw/lp.asp?ctNode=30631&amp;CtUnit=819&amp;BaseDSD=7&amp;mp=epa">&#x5730;&#x5716;</a>  &#x7E3D;&#x6A5F;&#xFF1A;886-2-23117722<br>
+&#x7248;&#x6B0A;&#x6240;&#x6709; &#x884C;&#x653F;&#x9662;&#x74B0;&#x5883;&#x4FDD;&#x8B77;&#x7F72;<br>&#x5EFA;&#x8B70;&#x87A2;&#x5E55;&#x6700;&#x4F73;&#x89E3;&#x6790;&#x5EA6;1024*768<br>
+<a href="https://www.epa.gov.tw/ct.asp?xItem=5278&amp;ctNode=30609&amp;mp=epa">&#x96B1;&#x79C1;&#x6B0A;&#x4FDD;&#x8B77;&#x653F;&#x7B56;</a>    
+<a href="https://www.epa.gov.tw/ct.asp?xItem=5277&amp;ctNode=30609&amp;mp=epa">&#x7DB2;&#x7AD9;&#x5B89;&#x5168;&#x653F;&#x7B56;</a>    
+<a href="https://www.epa.gov.tw/cpDownloadCtl.asp?id=5276">&#x8CC7;&#x8A0A;&#x5B89;&#x5168;&#x898F;&#x7BC4;</a>    
+<a href="https://www.epa.gov.tw/ct.asp?xItem=5275&amp;ctNode=30609&amp;mp=epa">&#x7DB2;&#x7AD9;&#x8CC7;&#x6599;&#x958B;&#x653E;&#x5BA3;&#x544A;</a>
+</div>
+<!-- outer-wrapper --></div>
+    
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.Application.initialize();
+//]]>
+</script>
+</form>
+<script type="text/javascript">
+$(document).ready(function(){
+    $('#content table.ALT_TABLE_EVENT tr:even').addClass('ALT');
+    $('#content table.ALT_TABLE_ODD tr:odd').addClass('ALT');
+	
+//$("<li id='mz'><a href='https://ienv.epa.gov.tw/WoT/' target='_blank' title='另開視窗顯示網頁' ><span>...<small></span></a></li>").appendTo("#tabsJ ul");	
+	
+  
+    $.get("../aqs.ashx?act=YoutubeForecast&lang=tw", function (data) {
+		try {
+        if ( data.length == 0 )
+            $("#YoutubeForecast_box").hide();
+        else
+            $("#YoutubeForecast").html(data);
+		} catch (e) {$("#YoutubeForecast_box").hide();}	
+    });
+	
+});
+Sys.WebForms.PageRequestManager.getInstance().add_beginRequest(_beginRequest);
+function _beginRequest(sender, args) {
+    if ( typeof(__beginRequest) == 'function' ) { __beginRequest(sender, args); }　// if
+}
+Sys.WebForms.PageRequestManager.getInstance().add_endRequest(_endRequest);
+function _endRequest(sender, args) {
+    if ( typeof(__endRequest) == 'function' ) { __endRequest(sender, args); }　// if
+}
+</script>
+
+
+</body></html>
