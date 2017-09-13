@@ -8,8 +8,9 @@ var mongoose = require('mongoose');
  * We recommend a 30 second connection timeout because it allows for 
  * plenty of time in most operating environments.
  */
-var options = { server: { socketOptions: { keepAlive: 300000, connectTimeoutMS: 30000 } }, 
-replset: { socketOptions: { keepAlive: 300000, connectTimeoutMS : 30000 } } };
+var options = { keepAlive: true,
+								reconnectTries: Number.MAX_VALUE,
+								useMongoClient: true};
 
 var mongodbUri = 'mongodb://welen:welen88@ds064198.mlab.com:64198/welendb';
 
