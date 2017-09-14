@@ -7,31 +7,47 @@ const request = require('request');
 
 const full_uri = 'http://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=20170901&stockNo=0050';
 const uri = 'http://www.twse.com.tw/exchangeReport/STOCK_DAY?response=json&date=';
-const stockNo = '0050';
+//const stockNo = '0050';
 
 
-dateL = getDataListByYear(2017);
+dateL = getDataListByYear(2016);
 
-for(let i = 0; i < dateL.length; i++) {
-	//console.log(dateL[i]);
-	console.log(uri + dateL[i] + '&stockNo=0050');
+const promises = []; // task list
+
+for(let i = 0; i < 3; i++) {
+	promises.push(getMonthlyTradeInfo(dateL[i], '0050'));  // push task into task list
 }
 
+// 建立一個 Promise task 
+function getMonthlyTradeInfo(date, stockNo) {
+	return new Promise(function(resolve, reject){ // 
+		const _uri = uri + date + '&stockNo=' + stockNo;
 
-// request.get(uri, function (error, response, body) {
-//     if (!error && response.statusCode == 200) {
-//     	const _content = JSON.parse(body); // convert JSON 字串 to JSON object
-//     	const _fields = _content.fields; // 欄位
-//     	const _dataList = _content.data; //逐日資料
+		console.log(_uri);
 
-//     	console.log(_fields);
+		request.get(_uri, function (error, response, body) {
+			if (!error && response.statusCode == 200) {
+				const _content = JSON.parse(body); // convert JSON 字串 to JSON object
+				const _fields = _content.fields; // 欄位
+				const _dataList = _content.data; //逐日資料
+				resolve(_content);
+			} else {
+				reject(error);	
+			}
+		});
+	});
+}
 
-//     	for(let i = 0; i< _dataList.length; i++) {
-//     		console.log(_dataList[i]);
-//     	}
-    	
-//     }
-// });
+// 處理 Promise Tasks 結果(resolve/reject)
+Promise.all(promises)
+	.then(function(data) {
+		console.log(data);
+		console.log("All Task Successed !!");
+	})
+	.catch(function(err) {
+		console.log("Error Happen !!");
+		console.log(err);
+	});
 
 function getDataListByYear(year) {
 	const _dateL = [];
