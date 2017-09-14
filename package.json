@@ -23,6 +23,7 @@
     "mongodb": "^2.2.31",
     "mongoose": "^4.11.11",
     "phantom": "^4.0.5",
+    "promise": "^8.0.1",
     "request": "^2.81.0"
   }
 }
