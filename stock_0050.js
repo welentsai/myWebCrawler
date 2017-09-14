@@ -14,27 +14,34 @@ dateL = getDataListByYear(2016);
 
 const promises = []; // task list
 
-for(let i = 0; i < 3; i++) {
-	promises.push(getMonthlyTradeInfo(dateL[i], '0050'));  // push task into task list
+// 當 i > 5, 開始出現error, 應該是request發出的速度太快, 被server端擋住
+// 利用 Timer 慢慢發出 request
+for(let i = 0; i < dateL.length; i++) {
+	promises.push(getMonthlyTradeInfo(dateL[i], '0050', (i+1)*500));  // push task into task list
 }
 
 // 建立一個 Promise task 
-function getMonthlyTradeInfo(date, stockNo) {
-	return new Promise(function(resolve, reject){ // 
-		const _uri = uri + date + '&stockNo=' + stockNo;
+function getMonthlyTradeInfo(date, stockNo, delayInterval) {
+	return new Promise(function(resolve, reject){
 
-		console.log(_uri);
+		setTimeout(() => { // 設定 Timer
+			const _uri = uri + date + '&stockNo=' + stockNo;
 
-		request.get(_uri, function (error, response, body) {
-			if (!error && response.statusCode == 200) {
-				const _content = JSON.parse(body); // convert JSON 字串 to JSON object
-				const _fields = _content.fields; // 欄位
-				const _dataList = _content.data; //逐日資料
-				resolve(_content);
-			} else {
-				reject(error);	
-			}
-		});
+			console.log(_uri);
+
+			request.get(_uri, function (error, response, body) {
+				if (!error && response.statusCode == 200) {
+					const _content = JSON.parse(body); // convert JSON 字串 to JSON object
+					const _fields = _content.fields; // 欄位
+					const _dataList = _content.data; //逐日資料
+					//console.log(_dataList);
+					resolve(_dataList);
+				} else {
+					reject(error);	
+				}
+			});
+		}, delayInterval);
+
 	});
 }
 
