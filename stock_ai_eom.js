@@ -11,8 +11,10 @@ const form = {
 	form: {
 		a:"c",
 		showType:"Value",
-		symbolCode:"twIndexScore",
-		startYear:1990,
+		//symbolCode:"twIndexScore", // 台灣景氣對策信號(分數)
+		//symbolCode:"marketCapitalization", // 台灣台股上市公司當月總市值
+		symbolCode:"twA02", // M1B 貨幣總計數 (= M1A ＋ 活期儲蓄存款) 
+		startYear:2000,
 		startMonth:01,
 		endYear:2017,
 		endMonth:07,
