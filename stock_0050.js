@@ -82,7 +82,7 @@ function formatTrading(data) {
 	}
 }
 
-
+// 0050 民國93年成立, 歷史資料從94年, 西元2004年開始
 //dateL = getDataListByYear(2004); //done
 //dateL = getDataListByYear(2005); // done
 //dateL = getDataListByYear(2006); // done

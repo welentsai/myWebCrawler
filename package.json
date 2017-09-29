@@ -19,6 +19,7 @@
   "homepage": "https://github.com/welentsai/myWebCrawler#readme",
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
+    "iconv-lite": "^0.4.19",
     "moment": "^2.18.1",
     "mongodb": "^2.2.31",
     "mongoose": "^4.11.11",
