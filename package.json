@@ -24,6 +24,7 @@
     "moment": "^2.18.1",
     "mongodb": "^2.2.31",
     "mongoose": "^4.11.11",
+    "pandas-js": "^0.2.4",
     "phantom": "^4.0.5",
     "promise": "^8.0.1",
     "request": "^2.81.0"
